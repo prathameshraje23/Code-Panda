@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edufin/Agency Signup</title>
+     <!-- Bootsrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <!-- Code-Panda CSS -->
+     <link rel="stylesheet" href="code-panda.css">
+
+     <!-- CSS of this file -->
+     <style>
+         main{
+        margin: 6vh 24vw;
+        
+      }
+        h2{
+         font-family: Sans-serif; 
+         font-size: 8vh;     
+         font-style: normal; 
+         font-weight: bold; 
+         color: #a42727;
+         text-align: center; 
+         margin: 7vh;
+        }
+        table{
+         font-family: verdana; 
+         color:rgb(29, 4, 4); 
+         font-size: 16px; 
+         font-style: normal;
+         font-weight: bold;  
+         border-collapse: collapse; 
+         
+        }
+        table.inner{
+         border: 10px
+        }
+        input[type=text], input[type=email], input[type=number]{
+         width: 50%;
+         padding: 6px 12px;
+         margin: 5px 0;
+         box-sizing: border-box;
+        }
+        input[type=submit], input[type=reset]{
+         width: 15%;
+         padding: 8px 12px;
+         margin: 5px 0;
+         box-sizing: border-box;
+         background-color: rgb(102, 102, 160);
+         color: white;
+         margin-top: 7vh;
+        }
+        </style>
+</head>
+<body>
+    <header>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <img class="graduation" src="graduation.png" alt="hat image">
+              <a class="navbar-brand" href="#">EDUFIN</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="login.html">Login</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="signup.html">Signup</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <main>
+        <h2>Agency Signup Form</h3>
+            <table align="center" cellpadding = "10">
+            <!--------------------- First Name ------------------------------------------>
+            <tr>
+            <td>Agency Name</td>
+            <td><input type="text" name="Agency Name" maxlength="50" placeholder="Tata Group of Industries" />
+            (Max 50 Characters Allowed)
+            </td>
+            </tr>
+            
+            <!-------------------------- Email ID ------------------------------------->
+            <tr>
+            <td>Email ID</td>
+            <td><input type="email" name="EmailID" maxlength="100" placeholder="yghanendra@gmail.com"/></td>
+            </tr>
+            <!-------------------------- Mobile Number ------------------------------------->
+            <tr>
+            <td>Mobile Number</td>
+            <td>
+            <input type="text" name="MobileNumber" maxlength="10" placeholder="7842xxxxxx"/>
+            (10 Digits Allowed)
+            </td>
+            </tr>
+            
+            
+            <!------------------------- Address ---------------------------------->
+            <tr>
+            <td>Address Of Agency<br /><br /><br /></td>
+            <td><textarea name="Address" rows="10" cols="50"></textarea></td>
+            </tr>
+            <!-------------------------- City ------------------------------------->
+            <tr>
+            <td>City</td>
+            <td><input type="text" name="City" maxlength="50" placeholder="Satara"/>
+            (Max 50 Characters Allowed)
+            </td>
+            </tr>
+            <!----- -------------------- Pin Code-------------------------------------->
+            <tr>
+            <td>Pin Code</td>
+            <td><input type="Number" name="PinCode" maxlength="6" placeholder="560068"/>
+            (Max 6 Numbers Allowed)
+            </td>
+            </tr>
+            <!---------------------------- State ----------------------------------->
+            <tr>
+            <td>State</td>
+            <td><input type="text" name="State" maxlength="50" placeholder="Maharashtra"/>
+            (Max 50 Characters Allowed)
+            </td>
+            </tr>
+            <!------------------------------ Country --------------------------------->
+            <tr>
+            <td>Country</td>
+            <td><input type="text" name="Country" placeholder="India" /></td>
+            </tr>
+            <!------------------------------ Scolarship offering--------------------------------->
+            <tr>
+            <td>Scolarship offering</td>
+            <td><input type="text" name="Scolarship offering" /></td>
+            </tr>
+            <!------------------------------ To whom Scolarship --------------------------------->
+            <tr>
+            <td>To whom Scolarship</td>
+            <td><input type="text" name="To whom Scolarship" /></td>
+            </tr>
+            <!------------------------------ Criteria for Scolarship --------------------------------->
+            <tr>
+            <td>Criteria for Scolarship</td>
+            <td><input type="text" name="Criteria for Scolarship" /></td>
+            </tr>
+            <!------------------------------ Information --------------------------------->
+            <tr>
+            <td>Information</td>
+            <td><input type="text" name="Information" /></td>
+            </tr>
+            <tr>
+                <td>Set Password</td>
+                <td><input type="text" name="password" maxlength="50" placeholder="Vishal@8723"/>
+                (Max 12 Characters Allowed)
+                </td>
+              </tr>
+              <tr>
+                  <td>Confirm Password</td>
+                  <td><input type="text" name="password" maxlength="50" placeholder="Vishal@8723"/>
+                  (Max 12 Characters Allowed)
+                  </td>
+              </tr>
+            <!----------------------- Submit and Reset ------------------------------->
+            <tr>
+            <td colspan="2" align="center">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            </td>
+            </tr>
+            </table>
+            </form>
+
+    </main>
+
+    <footer>
+        <div class="myfooter">
+           <p>Contact Us</p>
+            <ul>
+              <li>edufin2021@l.com</li>
+              <li>www.edufin//facebook//.in</li>
+              <li>edufin.in//twitter//</li>
+              <li>insta//edufin2021.log</li>
+              <li>+91 7744964913</li>
+            </ul>
+            <hr>
+            <p>Copyright &copy;2021 All Rights Reserved | EduFin.com</p>
+        </div>
+    </footer>
+  
+
+    <!-- bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

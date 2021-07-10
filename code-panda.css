@@ -1,0 +1,273 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* style of header */
+
+.navbar {
+    position: sticky;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 0rem;
+}
+.container-fluid{
+    background-color: #cb6ce6;
+    position: sticky;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+    background-color: #cb6ce6;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+}
+.navbar-brand{
+    font-size: 10vw;
+}
+.bg-light {
+    background-color: #cb6ce6 !important;
+}
+.graduation{
+    vertical-align: middle;
+    border-style: none;
+    height: 8vh;
+}
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 4vh;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: bolder;
+    font-variant: unicase;
+}
+.navbar-collapse {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    justify-content: end;
+}
+.nav-item{
+    margin: 0px 0px;
+    padding: 0px 7px;
+    color: white;
+}
+.nav-link{
+    color: white;
+    font-size: 21px;
+    font-family: Roboto,Arial,sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+
+/* style of navbar i.e. header ends here */
+
+/* style of main */
+
+.libraryimg{
+    display: flex;
+    justify-content: center;
+}
+.mylibrary{
+    margin: 7vh 0vh;
+    display: flex;
+    justify-content: center;
+    width : 98.7vw;
+
+}
+.myquote{
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    color: rgb(238, 58, 58);
+    font-size: 10vh;
+    margin: 2vh;
+    font-weight: bold;
+}
+
+/* CSS for active scholarships */
+
+.act{
+    margin: 2vh 2vw;
+    font-size: 3vw;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: bold;
+}
+.active{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-row-gap: 2vh;
+    margin: 3vw;
+    grid-row-gap: 2vh;
+    
+    
+}
+.active p{
+    padding: 0vh 0vw;
+    font-size: 4vh;
+    font-family:Roboto,Arial,sans-serif ;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    color: rgb(105, 23, 23);
+}
+.firstactive{
+    background-color: #00ffff;
+    margin: 2vh 0vw;
+    display: flex;
+    align-items: center;
+    height: 15vh;
+}
+.firstactive img{
+    height: 15vh;
+}
+.btn-primary{
+    margin: 2vh;
+    padding: 2vh;
+    position: relative;
+    left: 48vw;
+}
+#buttonid{
+    margin: 2vh;
+    padding: 2vh;
+    position: relative;
+    left: 50vw;
+}
+
+/* CSS of types of scholarships */
+
+.type{
+    margin: -4vh 2vw;
+    font-size: 3vw;
+    font-family: Roboto,Arial,sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.hello{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 8vh;
+}
+.vtype{
+    margin: 3vw;
+    background-color:  #baff56;
+    text-align: center;
+    color: rgb(126, 50, 50);
+    border-radius: 3vh;
+    height: 48vh;
+}
+.vtype h3{
+    font-weight: bold;
+    color: white;
+    margin: 3vh;
+}
+.vtype p{
+    margin: 4vh;
+    font-size: 17px;
+}
+.hello :hover{
+    background-color: rgb(161, 226, 226);
+}
+
+/* CSS of footer */
+
+footer{
+    color: white;
+    text-align: center;
+    display: block;
+    position: relative;
+    width: 100%;
+    background: #1e2434;
+    padding-top: 11px;
+    margin-top: 15vh;
+}
+.myfooter{
+    background: #1e2434;
+}
+.myfooter li{
+    color: white;
+    font-size: 3vh;
+}
+.myfooter p{
+    margin: 1vh;
+    font-size: 4vh;
+    padding-bottom: 2vh;
+}
+
+/* CSS of login.html page */
+
+.login1{
+    background-color: white;
+    margin: -7vh 14vw;
+    height: 66vh;
+}
+.login1 table{
+    margin: 15vh;
+    position: relative;
+    top: 13vh;
+    left: 9vw;
+    font-size: 3vh;
+}
+.login1 table tr{
+    margin: 3vh;
+    color: black;
+}
+.login1 table tr td input{
+    margin: 2vh 11vh;
+    width: 30vw;
+    text-align: center;
+}
+#buttonidsubmit{
+    margin: 2vh;
+    padding: 1vh;
+    position: relative;
+    left: 34vw;
+    background-color: blueviolet;
+    color:white;
+}
+
+
+/* CSS of signup,html page */
+
+.sign{
+    display: grid;
+    margin-top: 12vh;
+    grid-template-columns: auto auto;
+}
+.sign1{
+    background-color: white;
+    font-size: 2vh;
+    height: 48vh;
+    border-radius: 4vh;
+    width: 34vw;
+    margin: 4vh auto;
+}
+.btn-primary1{
+    margin: 2vh;
+    padding: 1vh;
+    position: relative;
+    top: 16vh;
+    left: 27vh;
+    background-color: blueviolet;
+    color:white;
+    height: 9vh;
+    width: 7vw;
+    font-size: 4vh;
+}
+.sign1 p{
+    text-align: center;
+    position: relative;
+    top: 15vh;
+    font-size: 5vh;
+    color: rgb(119, 119, 18);
+}
